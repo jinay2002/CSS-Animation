@@ -1,0 +1,88 @@
+div {
+    height: 200px;
+    width: 200px;
+    transition: 3s;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    background-color: forestgreen;
+}
+
+.TranslateDiv:hover {
+    -webkit-transform: translate(100px, 100px);
+    -moz-transform: translate(100px, 100px);
+    -ms-transform: translate(100px, 100px);
+    -o-transform: translate(100px, 100px);
+    transform: translate(100px, 100px);
+    background-color: hotpink;
+    color: black;
+}
+
+.RotateDiv:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    background-color: cadetblue;
+    color: black;
+
+}
+
+.RotateDiv3D:hover {
+    -webkit-transform: rotate3d(1, 1, 0, 360deg);
+    -moz-transform: rotate3d(1, 1, 0, 360deg);
+    -ms-transform: rotate3d(1, 1, 0, 360deg);
+    -o-transform: rotate3d(1, 1, 0, 360deg);
+    transform: rotate3d(1, 1, 0, 360deg);
+    background-color: blueviolet;
+    color: black;
+
+}
+
+.SkewDiv:hover {
+    -webkit-transform: skew(70deg);
+    -moz-transform: skew(70deg);
+    -ms-transform: skew(70deg);
+    -o-transform: skew(70deg);
+    transform: skew(70deg);
+    background-color: rebeccapurple;
+    color: black;
+}
+
+.ScaleDiv:hover {
+    -webkit-transform: scale(1, 0.5);
+    -moz-transform: scale(1, 0.5);
+    -ms-transform: scale(1, 0.5);
+    -o-transform: scale(1, 0.5);
+    transform: scale(1, 0.5);
+    background-color: slateblue;
+    color: black;
+}
+
+.OpacityDiv:hover {
+    opacity: 2;
+    color: aquamarine;
+    background-color: rgb(209, 157, 94);
+}
+
+.RGBADiv:hover {
+    background: rgba(128, 128, 0, 0.5);
+    color: forestgreen;
+}
+
+.BoxShadowDiv:hover {
+    box-shadow: 0px 0px 50px fuchsia;
+}
+
+.TextShadowDiv:hover {
+    text-shadow: 3px 3px 3px royalblue;
+}
+
+.BorderRadiusDiv:hover {
+    border-radius: 20%;
+}
+
+.OverFlowDiv {
+    overflow: auto
+}
